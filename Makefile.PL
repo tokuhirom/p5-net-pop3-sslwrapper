@@ -6,7 +6,8 @@ requires 'Net::POP3';
 requires 'IO::Socket::SSL';
 requires 'Net::Cmd';
 
-build_requires 'Test::More';
+test_requires 'Test::More';
+author_tests 'xt';
 use_test_base;
 auto_include;
 WriteAll;

@@ -11,3 +11,5 @@
 \.cvsignore
 ^9\d_.*\.t
 \.sw[opt]$
+^\.git/
+^\.gitignore$

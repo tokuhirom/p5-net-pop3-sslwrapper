@@ -23,6 +23,7 @@ sub new {
     my $class = shift;
 
     my $self = $class->SUPER::new(@_);
+    return if !$self;
     $self->blocking(0); # XXX why need this?
     push @instances, $self;
     return $self;

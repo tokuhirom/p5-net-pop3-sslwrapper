@@ -5,7 +5,7 @@ use base qw/Net::Cmd IO::Socket::SSL Exporter/;
 use 5.008001;
 use Net::POP3;
 
-our $VERSION = '0.04';
+our $VERSION = '0.05';
 our @EXPORT = 'pop3s';
 
 my @instances;

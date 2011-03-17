@@ -54,6 +54,13 @@ Net::POP3::SSLWrapper is simple POP3S wrapper for Net::POP3.
 
 You can easy to support POP3S, with very small code change.
 
+=head1 NOTE
+
+This module is a quick fix for script is using Net::POP3. I don't test
+with gmail.
+
+I recommend L<Mail::POP3Client> if you can. It supports PO3S correctly.
+
 =head1 AUTHOR
 
 tokuhirom E<lt>tokuhirom@gmail.comE<gt>

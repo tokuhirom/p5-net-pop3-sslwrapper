@@ -10,4 +10,6 @@ requires 'parent';
 test_requires 'Test::More';
 author_tests 'xt';
 auto_include;
+repository 'https://github.com/tokuhirom/p5-net-pop3-sslwrapper';
+
 WriteAll;
